@@ -1,11 +1,14 @@
 page 50145 "SGP Signatures"
 {
-    PageType = List;
     ApplicationArea = All;
-    UsageCategory = Lists;
-    SourceTable = "SGP Signature";
-    CardPageId = "SGP Signature";
     Caption = 'User Signatures';
+    PageType = List;
+    RefreshOnActivate = true;
+    SourceTable = "SGP Signature";
+    UsageCategory = Administration;
+
+    CardPageId = "SGP Signature";
+
 
     layout
     {
@@ -15,23 +18,13 @@ page 50145 "SGP Signatures"
             {
                 field(User; User)
                 {
-                    ApplicationArea = All;
-
+                    ApplicationArea = Basic, Suite;
                 }
                 field("User Signature"; "User Signature")
                 {
-                    ApplicationArea = All;
+                    ApplicationArea = Basic, Suite;
                 }
             }
         }
-        area(Factboxes)
-        {
-
-        }
-    }
-
-    actions
-    {
-
     }
 }

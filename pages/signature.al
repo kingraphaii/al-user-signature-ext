@@ -1,4 +1,4 @@
-page 50146 "SGP Signature"
+page 50144 "SGP Signature"
 {
     PageType = Card;
     SourceTable = "SGP Signature";

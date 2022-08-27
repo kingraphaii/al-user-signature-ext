@@ -1,8 +1,10 @@
 table 50144 "SGP Signature"
 {
-    DataClassification = ToBeClassified;
+    DataClassification = EndUserIdentifiableInformation;
     LookupPageID = "SGP Signatures";
     Caption = 'User Signatures';
+    DrillDownPageId = "SGP Signatures";
+
 
     fields
     {
@@ -23,7 +25,7 @@ table 50144 "SGP Signature"
         }
         field(3; "User Signature"; Blob)
         {
-            DataClassification = ToBeClassified;
+            DataClassification = EndUserIdentifiableInformation;
             Subtype = Bitmap;
             Caption = 'Signature';
         }
@@ -36,25 +38,4 @@ table 50144 "SGP Signature"
             Clustered = true;
         }
     }
-
-    trigger OnInsert()
-    begin
-
-    end;
-
-    trigger OnModify()
-    begin
-
-    end;
-
-    trigger OnDelete()
-    begin
-
-    end;
-
-    trigger OnRename()
-    begin
-
-    end;
-
 }

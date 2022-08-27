@@ -1,8 +1,10 @@
 {
   "id": "30f5cb04-9553-40d2-9832-ac16dcec30db",
-  "name": "signatures-plugin",
-  "publisher": "Percival Rapha",
-  "version": "1.0.0.0",
+  "name": "Bitmap signature",
+  "publisher": "Topshell",
+  "version": "2.0.0.0",
+  "target": "OnPrem",
+  "platform": "16.0.13440.13772",
   "brief": "Add signature as image to User record",
   "description": "",
   "privacyStatement": "",
@@ -12,26 +14,25 @@
   "logo": "",
   "dependencies": [
     {
-      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
-      "publisher": "Microsoft",
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
       "name": "System Application",
-      "version": "16.0.0.0"
+      "version": "1.0.0.0",
+      "publisher": "Microsoft"
     },
     {
-      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
-      "publisher": "Microsoft",
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
       "name": "Base Application",
-      "version": "16.0.0.0"
+      "version": "15.0.0.0",
+      "publisher": "Microsoft"
     }
   ],
   "screenshots": [],
-  "platform": "1.0.0.0",
   "idRanges": [
     {
-      "from": 50144,
+      "from": 50100,
       "to": 50149
     }
   ],
   "showMyCode": true,
-  "runtime": "5.0"
+  "runtime": "4.0"
 }
