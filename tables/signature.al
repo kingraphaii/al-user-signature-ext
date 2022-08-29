@@ -1,4 +1,4 @@
-table 50144 "SGP Signature"
+table 50000 "SGP Signature"
 {
     DataClassification = EndUserIdentifiableInformation;
     LookupPageID = "SGP Signatures";

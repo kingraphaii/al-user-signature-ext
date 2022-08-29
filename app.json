@@ -29,10 +29,10 @@
   "screenshots": [],
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50000,
+      "to": 99999
     }
   ],
-  "showMyCode": true,
+  "showMyCode": false,
   "runtime": "4.0"
 }

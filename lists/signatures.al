@@ -1,4 +1,4 @@
-page 50145 "SGP Signatures"
+page 50001 "SGP Signatures"
 {
     ApplicationArea = All;
     Caption = 'User Signatures';
@@ -6,9 +6,8 @@ page 50145 "SGP Signatures"
     RefreshOnActivate = true;
     SourceTable = "SGP Signature";
     UsageCategory = Administration;
-
+    ModifyAllowed = false;
     CardPageId = "SGP Signature";
-
 
     layout
     {
